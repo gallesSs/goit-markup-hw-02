@@ -60,9 +60,11 @@ h2 {
   color: #404bbf;
 }
 
-.nav-list-item-link:hover,
-.nav-list-item-link:focus,
-.nav-list-item-link:active {
+.nav-list-item-link:hover {
+  color: #404bbf;
+}
+
+.nav-list-item-link:focus {
   color: #404bbf;
 }
 
