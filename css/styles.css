@@ -193,9 +193,14 @@ h2 {
 }
 
 .footer .footer-text {
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.footer {
+  background-color: #2e2f42;
 }
