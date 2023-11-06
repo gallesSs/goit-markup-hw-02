@@ -37,7 +37,8 @@ h2 {
 }
 
 .header .nav-list-item > a:hover,
-.nav-list-item > a:focus {
+.nav-list-item > a:focus,
+.nav-list-item > a:active {
   color: #404bbf;
 }
 
@@ -73,8 +74,9 @@ h2 {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 
 .main .hero {
@@ -96,9 +98,10 @@ h2 {
 }
 
 .main .hero-button:hover,
-.hero-button:focus {
+.main .hero-button:focus {
   background-color: #404bbf;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .features .features-title {
