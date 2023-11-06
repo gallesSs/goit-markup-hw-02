@@ -1,13 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  list-style-type: none;
-  text-decoration: none;
-}
-
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #434455;
 }
 
 h2 {
@@ -20,26 +14,35 @@ h2 {
   text-transform: capitalize;
 }
 
-.header .nav .nav-logo > span {
+.header .nav .nav-logo {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.header .nav .nav-logo {
+.header .nav .nav-logo > span {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.header .nav-list-item > a:hover,
+.nav-list-item > a:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 
 .header .address-list-item > a {
@@ -170,7 +173,7 @@ h2 {
   letter-spacing: 0.32px;
 }
 
-.footer .footer-logo {
+.footer .footer-logo > span {
   color: #fff;
   font-family: Raleway;
   font-size: 18px;
@@ -181,7 +184,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.footer .footer-logo > span {
+.footer .footer-logo {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
